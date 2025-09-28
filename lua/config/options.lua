@@ -1,6 +1,7 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 
+-- This may be set in the terminal emulator
 vim.o.guifont = "FiraCode Nerd Font:h9"
 
 -- Set PHP LSP as intelephense, disables PHPActor
@@ -110,7 +111,7 @@ opt.sidescrolloff = 8 -- Columns of context
 opt.signcolumn = "yes" -- Always show the signcolumn, otherwise it would shift the text each time
 opt.smartcase = true -- Don't ignore case with capitals
 opt.smartindent = true -- Insert indents automatically
-opt.smoothscroll = true
+opt.smoothscroll = false
 opt.spelllang = { "en" }
 opt.splitbelow = true -- Put new windows below current
 opt.splitkeep = "screen"
